@@ -16,9 +16,9 @@ WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Asteroid Survival")
 
 # Load images
-SHIP_IMG = pygame.image.load("ship_small.png").convert_alpha()
-ASTEROID_IMG = pygame.image.load("asteroid_small.png").convert_alpha()
-BULLET_IMG = pygame.image.load("bullet_small.png").convert_alpha()
+SHIP_IMG = pygame.image.load("images/ship_small.png").convert_alpha()
+ASTEROID_IMG = pygame.image.load("images/asteroid_small.png").convert_alpha()
+BULLET_IMG = pygame.image.load("images/bullet_small.png").convert_alpha()
 
 # Load sounds
 CANNON_SOUND = pygame.mixer.Sound("sounds/cannon.wav")
